@@ -1,0 +1,52 @@
+*{
+    margin: 0%;
+    padding: 0
+}
+
+header{
+    margin-bottom: 60px;
+}
+#container{
+    width: 600px;
+}
+#cards-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10%
+    
+        
+    
+}
+img{
+    height: 200px;
+    width: 250px;
+    position: relative;
+}
+.cards{
+    background-color: rgb(141, 165, 161);
+    border-radius: 20px;
+    box-shadow: 0px 6px 12px black;
+    width: 250px;
+    padding: 3%
+}
+/* ,cards > h2 , p{
+
+} */
+ i{
+    height: 70px;
+    width: 70px;
+ }
+
+body{
+    background-image: url(image/image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.cards{
+    transform: transfrom 0.3s ease;
+}
+.cards:hover{
+    transform: scale(1.05);
+}
